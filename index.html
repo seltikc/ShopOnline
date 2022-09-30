@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="fonts/lato-v23-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/lato-v23-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/open-sans-v34-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="index.css">
+  <title>ShopOnline</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <a class="header__logo" href="#">Shop<span class="header__logo-online">Online</span></a>
+      <a class="header__button" href="#">
+        <img class="header__button-sort" src="image/sort.svg" alt="Меню">
+        <p class="header__button-img">Меню</p>
+      </a>
+
+      <form class="header-form" action="">
+        <label class="header-form__lable" for="text"></label>
+        <input class="header-form__input" type="text" id="text" placeholder="Я ищу...">
+        <button class="header-form__btn">
+          <img class="header-form__img" src="image/search.svg" alt="Поиск">
+        </button>
+      </form>
+
+      <ul class="header-list">
+        <li class="header-list__item">
+          <a class="header-list__link" href="">
+            <img class="header-list__img" src="image/icon-header/person.svg" alt="Профиль">
+            <p class="header-list__text">Профиль</p>
+          </a>
+          
+        </li>
+        <li class="header-list__item">
+          <a class="header-list__link" href="">
+            <img class="header-list__img" src="image/icon-header/shop-cart.svg" alt="Корзина">
+          </a>
+          <p class="header-list__text">Корзина</p>
+        </li>
+
+        <li class="header-list__item">
+          <a class="header-list__link" href="">
+            <img class="header-list__img" src="image/icon-header/person.svg" alt="Избранное">
+          </a>
+          <p class="header-list__text">Избранное</p>
+        </li>
+
+      </ul>
+    </header>
+
+    <section class="banner">
+      <h2 class="banner__title">-50% на все ноутбуки</h2>
+      <p class="banner__stocks">До конца акции:</p>
+      <div class="banner-countdown">
+
+        <div class="banner-countdown__time">
+          <p class="banner-countdown__number">3</p>
+          <p class="banner-countdown__text">дня</p>
+        </div>
+
+        <div class="banner-countdown__time">
+          <p class="banner-countdown__number">8</p>
+          <p class="banner-countdown__text">часов</p>
+        </div>
+
+        <div class="banner-countdown__time">
+          <p class="banner-countdown__number">43</p>
+          <p class="banner-countdown__text">минуты</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="promo__book">
+        <p class="promo__book-text"><span class="promo__book-span">Книга</span> – лучший подарок</p>
+      </div>
+
+      <div class="promo__discount">
+        <p class="promo__discount-text">Время скидок!</p>
+        <img class="promo__discount-img" src="image/promo/discount-25.svg" alt="Скидка 25%">
+      </div>
+
+      <div class="promo__sneakers">
+        <p class="promo__sneakers-text"></p>
+        <img class="promo__sneakers-img" src="image/promo/discount-40.svg" alt="Красный кросовок">
+      </div>
+
+      <div class="promo__shoes">
+        <div class="promo-shoes__block">
+          <p class="promo-shoes__text">Вторая пара кроссовок<span class="promo__shoes-span"><br> в подарок!</span></p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+</body>
+</html>

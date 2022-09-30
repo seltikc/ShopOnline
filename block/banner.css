@@ -1,0 +1,56 @@
+.banner {
+    background: url("../image/banner.png") center no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    color: #ffffff;
+    max-width: 1770px;
+    min-height: 480px;
+    margin-bottom: 60px;
+}
+
+.banner__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 130%;
+    padding: 145px 20px 0 112px;
+    margin-bottom: 100px;
+}
+
+.banner__stocks {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.banner-countdown {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.banner-countdown__time {
+    display: flex;
+    align-items: center;
+}
+
+.banner-countdown__number {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    margin-right: 6px;
+}
+
+.banner-countdown__number:last-child {
+    margin-right: 0;
+}
+
+.banner-countdown__text {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    padding-top: 20px;  
+}
+
+
+

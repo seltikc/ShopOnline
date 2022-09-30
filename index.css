@@ -1,0 +1,15 @@
+@import url("./block/style.css");
+@import url("./block/normalize.css");
+@import url("./block/fonts.css");
+@import url("./block/header.css");
+@import url("./block/banner.css");
+@import url("./block/promo.css");
+
+
+
+body {
+    font-family: 'lato',  sans-serif;
+    
+}
+
+

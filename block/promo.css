@@ -1,0 +1,112 @@
+.promo {
+    color: #ffffff;
+}
+
+.promo__book {
+    background: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), 
+    url("../image/promo/book.png") no-repeat center;
+    background-size: cover;
+    max-width: 245px;
+    width: 100%;
+    height: 100%;
+    min-height: 228px;
+    border-radius: 20px;
+}
+
+.promo__book-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    padding: 80px 35px 20px 20px;
+}
+
+.promo__book-span {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.promo__discount {
+    background: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), 
+    url("../image/promo/discount.png") no-repeat center;
+    background-size: cover;
+    max-width: 245px;
+    width: 100%;
+    height: 100%;
+    min-height: 228px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.promo__discount-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    padding: 67px 25px 122px 14px;
+}
+
+.promo__discount-img {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.promo__sneakers {
+    background: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), 
+    url("../image/promo/sneakers.png") no-repeat center;
+    background-size: cover;
+    max-width: 550px;
+    min-height: 228px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.promo__sneakers-img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.promo__shoes {
+    background: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), 
+    url("../image/promo/shoes.png") no-repeat center;
+    background-size: cover;
+    max-width: 550px;
+    min-height: 516px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.promo-shoes__block {
+    background: #38C0EB;
+    border-radius: 20px;
+    max-width: 510px;
+    height: 167px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.promo-shoes__text {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    padding: 24px 26px; 
+}
+
+.promo__shoes-span {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+}
+
+
+
