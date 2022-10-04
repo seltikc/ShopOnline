@@ -20,7 +20,7 @@
 }
 
 .header__button {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     background: #3670C7;
@@ -96,5 +96,32 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 130%;
+}
+
+@media (max-width: 1024px) {
+
+    .header {
+        grid-template-columns: minmax(190px, 151px)  minmax(294px, 700px);
+        grid-template-rows: auto auto;
+        padding-top: 34px;
+        gap: 34px 0;
+        margin-bottom: 60px;
+    }
+
+    .header__button {
+        order: 1;
+        margin-right: 89px;
+    }
+
+    .header-form {
+        order: 1;
+    }
+
+    .header-list {
+        margin-left: auto;
+        gap: 40px;
+    }
+
+    
 }
 

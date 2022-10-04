@@ -52,5 +52,40 @@
     padding-top: 20px;  
 }
 
+@media (max-width: 1024px) {
 
+    .banner {
+        background: url("../image/banner-1024.png") center no-repeat;
+        background-size: cover;
+        border-radius: 16px;
+        color: #ffffff;
+        max-width: 944px;
+        min-height: 314px;
+        margin-bottom: 50px;
+    }
+
+    .banner__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 130%;
+        padding: 80px 20px 0 80px;
+        margin-bottom: 63px;
+    }
+
+    .banner-countdown {
+        gap: 20px;
+    }
+
+    .banner-countdown__number {
+        font-size: 40px;
+        margin-right: 6px;
+    }
+
+    .banner-countdown__text {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 130%;
+        padding-top: 15px;  
+    }
+}
 
