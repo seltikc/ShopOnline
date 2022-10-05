@@ -190,3 +190,75 @@
     }
 }
 
+@media (max-width: 610px) {
+
+    .header {
+        grid-template-columns: 114px 130px;
+        grid-template-rows: repeat(3, 30px);
+        margin: 0 auto 40px auto;
+        gap: 20px;
+    }
+
+    .header__logo {
+        font-size: 18px;
+    }
+
+    .header__button {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        width: 79px;
+        font-size: 12px;
+        height: 30px;
+        border-radius: 4px;
+    }
+
+    .header-form__input {
+        height: 30px;
+        border-radius: 30px;
+    }
+
+    .header-form {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+
+    .header-form__btn {
+        width: 50px;
+        height: 30px;
+        background-size: 20px 20px;
+        border-radius: 30px;
+        font-size: 8px;
+        color: #8F8F8F;
+    }
+
+    .block-header {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        justify-self: end;
+    }
+
+    .header-form__input::placeholder {
+        font-size: 8px;
+    }
+
+    .header-list {
+        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .header-list__item {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-list__text {
+        visibility: hidden;
+    }
+
+    .header-list__img {
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
