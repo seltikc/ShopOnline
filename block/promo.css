@@ -14,7 +14,6 @@
     max-width: 245px;
     width: 100%;
     height: 100%;
-    height: 228px;
     border-radius: 20px;
     display: grid;
     padding: 20px;
@@ -39,7 +38,6 @@
     max-width: 245px;
     width: 100%;
     height: 100%;
-    height: 228px;
     border-radius: 20px;
     position: relative;
     display: grid;
@@ -66,7 +64,6 @@
     url("../image/promo/sneakers.png") no-repeat center;
     background-size: cover;
     max-width: 550px;
-    height: 228px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -98,7 +95,7 @@
     font-size: 40px;
     background-color: #38C0EB;
     height: fit-content;
-    padding: 24px 26px;
+    padding: 24px 15px;
     border-radius: 20px;
     line-height: 62px;
     align-self: end;
@@ -116,7 +113,6 @@
     url("../image/promo/gifts.png") no-repeat center;
     background-size: cover;
     max-width: 550px;
-    height: 228px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -140,7 +136,6 @@
     url("../image/promo/laptop.png") no-repeat center;
     background-size: cover;
     max-width: 550px;
-    height: 228px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -171,7 +166,6 @@
     url("../image/promo/year\ 2022.png") no-repeat center center;
     background-size: cover;
     max-width: 1160px;
-    height: 516px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -180,7 +174,6 @@
     display: grid;
     padding: 50px;
 }
-
 
 .promo-year__text {
     font-weight: 700;
@@ -203,7 +196,6 @@
     url("../image/promo/gerl.png") no-repeat center;
     background-size: cover;
     max-width: 245px;
-    height: 516px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -224,7 +216,6 @@
     url("../image/promo/clean.png") no-repeat center;
     background-size: cover;
     max-width: 245px;
-    height: 228px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -255,7 +246,6 @@
     url("../image/promo/balls.png") no-repeat center;
     background-size: cover;
     max-width: 245px;
-    height: 228px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -312,3 +302,120 @@
         grid-row: 5/5;
     }
 }
+
+@media (max-width: 768px) {
+
+    .promo {
+        grid-template-columns: 1.21fr 1.21fr 1.6fr 1.55fr;
+        grid-template-rows: minmax(120px, 130px) repeat(3, 126px) minmax(123px, 337px);
+    }
+
+    .promo__book-text {
+        font-size: 20px;
+    }
+
+    .promo__discount-text {
+        font-size: 16px;
+        
+    }
+
+    .promo__book-span {
+        font-size: 26px;
+    }
+
+    .promo__discount-img {
+        width: 50px;
+        height: 50px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .promo__sneakers-img {
+        width: 50px;
+        height: 50px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .promo-shoes__text {
+        line-height: 18px;
+        font-size: 15px;
+        white-space: normal;
+        border-radius: 12px;
+        padding: 10px 10px;
+    }
+
+    .promo__shoes-span {
+        font-size: 26px;
+    }
+
+    .promo__shoes {
+        padding: 10px;
+    }
+
+    .promo__gifts {
+        padding: 18px 21px;
+    }
+
+    .promo-gifts__text {
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 140px;
+    }
+
+    .promo__laptop {
+        padding: 20px 21px;
+    }
+
+    .promo__laptop-text {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .promo__laptop-img  {
+        width: 50px;
+        height: 50px;
+        right: 10px;
+        bottom: 10px;
+    } 
+
+    .promo__gerl-img {
+        width: 50px;
+        height: 50px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .promo__clean-img {
+        width: 50px;
+        height: 50px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .promo__clean-text {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .promo__clean {
+        padding: 10px 8px 18px 10px;
+    }
+
+    .promo__year {
+        padding: 26px;
+    }
+
+    .promo-year__text {
+        font-size: 20px;
+        max-width: 347px;
+        padding: 22px 34px;
+        line-height: 24px;
+        border-radius: 12px;
+    }
+
+
+        
+}
+
+    
